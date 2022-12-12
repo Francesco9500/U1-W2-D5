@@ -11,6 +11,8 @@ nav {
 }
 nav p {
   display: inline-block;
+}
+nav a {
   color: white;
 }
 main {
@@ -33,9 +35,10 @@ main {
   height: 100%;
   display: inline-block;
 }
-.visore {
+.immagini img {
+  width: 20%;
+  object-fit: cover;
 }
-
 footer {
   background-color: #222f3f;
   text-align: center;
