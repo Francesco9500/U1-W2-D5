@@ -92,14 +92,14 @@ const justTrims = [];
 */
 const numericArray = [6, 90, 45, 75, 84, 98, 35, 74, 31, 2, 8, 23, 100, 32, 66, 313, 321, 105];
 
-while (i < 13) {
+/*while (i < 13) {
   console.log(numericArray[i]);
   i++;
   if (numericArray[i] === 32) {
     console.log("Ciao");
     break;
   }
-}
+}*/
 
 /* ESERCIZIO 10
     Partendo dall'array fornito e utilizzando un costrutto switch, genera un nuovo array composto dalle posizioni di ogni carattere all'interno
