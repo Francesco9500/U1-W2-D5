@@ -87,6 +87,17 @@ const justTrims = [];
     "color" ha valore "b", mostra in console "Fizz". Altrimenti, mostra in console "Buzz".
 */
 
+for (let i = 0; i < cars.length; i++) {
+  const color = cars[i].color;
+  const firstLetter = color.substring(0, 1);
+  console.log(firstLetter);
+  if (firstLetter === "b") {
+    console.log("Fizz");
+  } else if (firstLetter !== "Buzz") {
+    console.log("Buzz");
+  }
+}
+
 /* ESERCIZIO 9
     Utilizza un ciclo while per stampare in console i valori del seguente array numerico fino al raggiungimento del numero 32.
 */
@@ -106,4 +117,27 @@ const numericArray = [6, 90, 45, 75, 84, 98, 35, 74, 31, 2, 8, 23, 100, 32, 66, 
     dell'alfabeto italiano.
     es. [f, b, e] --> [6, 2, 5]
 */
-const charactersArray = ["g", "n", "u", "z", "d"];
+/*const charactersArray = ["g", "n", "u", "z", "d"];
+const newcharactersArray = [];
+
+for (let i = 0; i < charactersArray.length; i++) {
+  const lettera = charactersArray[i];
+  switch (lettera) {
+    case "g":
+      newcharactersArray.push(7);
+      break;
+    case "n":
+      newcharactersArray.push(14);
+      break;
+    case "u":
+      newcharactersArray.push(21);
+      break;
+    case "z":
+      newcharactersArray.push(26);
+      break;
+    case "d":
+      newcharactersArray.push(4);
+      break;
+  }
+}
+console.log(newcharactersArray);*/
